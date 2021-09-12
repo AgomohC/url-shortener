@@ -1,7 +1,7 @@
 {
   "name": "url-shortener-microservice",
   "version": "1.0.0",
-  "description": "",
+  "description": "A microservice to shorten url built for the FCC backend and api section certification challenges",
   "main": "index.js",
   "scripts": {
     "start": "nodemon app.js"
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/AgomohC/url-shortener-microservice.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Chinaemerem Agomoh",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AgomohC/url-shortener-microservice/issues"
