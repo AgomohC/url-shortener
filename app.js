@@ -4,9 +4,6 @@ const express = require("express");
 // require routes
 const shortUrl = require("./routes/url-short");
 
-//require dns module
-const dns = require("dns");
-
 //initialize dotenv
 require("dotenv").config();
 
