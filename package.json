@@ -4,7 +4,7 @@
   "description": "A microservice to shorten url built for the FCC backend and api section certification challenges",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
