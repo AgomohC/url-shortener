@@ -22,7 +22,7 @@ const shortenUrl = async (req, res) => {
   const validUrl = isUrlValid(url);
 
   if (!validUrl) {
-    return res.status(500).json({ error: "invalid url" });
+    return res.status(400).json({ error: "invalid url" });
   } else {
     try {
       const findUrl = await Url.findOne({ original_url: url });
