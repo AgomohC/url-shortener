@@ -1,6 +1,6 @@
 # URL Shortener
 
-[femto-url-shortener](#) is a full stack app that shortens urls. This project idea was gotten from [freeCodeCamp](#).
+[femto-url-shortener](https://femto-url-shortener.glitch.me/) is a full stack app that shortens urls. This project idea was gotten from [freeCodeCamp](https://www.freecodecamp.org/learn/back-end-development-and-apis/back-end-development-and-apis-projects/url-shortener-microservice).
 
 ---
 
@@ -8,12 +8,12 @@
 
 There is 2 resources
 
-- Shorten URL <>
-- Retrieve URL <>
+- Shorten URL <https://femto-url-shortener.glitch.me/>
+- Retrieve URL <https://femto-url-shortener.glitch.me/>
 
 ### Shorten URL
 
-A post request is made to <> with the request body containing the url to be shortened. The URL must be in the format https://www.example.com/ or https://example.com/ else a 400 error is returned. When a get request is made to <> where :shortUrl is the shortened URL, it is redirected to the webpage ofURL associated to the shortened url
+A post request is made to <https://femto-url-shortener.glitch.me/api> with the request body containing the url to be shortened. The URL must be in the format https://www.example.com/ or https://example.com/ else a 400 error is returned. When a get request is made to <https://femto-url-shortener.glitch.me/api/:shortUrl> where :shortUrl is the shortened URL, it is redirected to the webpage ofURL associated to the shortened url
 
 ##### Sample Return
 
